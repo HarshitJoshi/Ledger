@@ -9,7 +9,7 @@ class SignIn extends Component {
       password: document.getElementById("inputPassword").value || null,
     };
 
-    putData('http://markzeagler.com/ledger-backend/signin', userObject)
+    putData('/signin', userObject)
       .then((res) => console.log("This is after function call", JSON.stringify(res)))
       .catch((err) => console.log("If err", err))
 
