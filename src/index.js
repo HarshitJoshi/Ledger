@@ -6,11 +6,7 @@ import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
 import ForgotPass from './components/ForgotPass';
 
-<<<<<<< HEAD
-ReactDOM.render((<BrowserRouter>
-=======
 ReactDOM.render((<BrowserRouter basename="/ledger">
->>>>>>> master
   <Switch>
     <Route path='/home' component={Home}/>
     <Route path='/signup' component={SignUp}/>
